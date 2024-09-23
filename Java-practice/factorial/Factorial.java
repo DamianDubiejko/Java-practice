@@ -18,7 +18,7 @@ public class Factorial {
 
     // Method to compute factorial
     public static String factorial(int n) {
-        BigInteger fact = BigInteger.ONE; // Use BigInteger.ONE instead of "new BigInteger('1')"
+        BigInteger fact = BigInteger.ONE;
         for (int i = 1; i <= n; i++) {
             fact = fact.multiply(BigInteger.valueOf(i));
         }
